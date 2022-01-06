@@ -1,5 +1,5 @@
 REGISTRY_HOST=ghcr.io
-USERNAME=pgrimaud
+USERNAME=alexandresc
 LAST_VERSION_THEMEKIT=1.0.1
 
 .PHONY: help
