@@ -19,6 +19,6 @@ jobs:
 
     - name: Build the Shopify Docker image
       run: |
-        docker build . --tag ghcr.io/alexandresc/themekit:latest
+        docker build ./themekit --tag ghcr.io/alexandresc/themekit:latest
         docker run ghcr.io/alexandresc/themekit:latest
         docker push ghcr.io/alexandresc/themekit:latest
